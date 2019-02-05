@@ -2,19 +2,34 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title id="titulo" > Colegio KATZIE</title>
+    <title id="titulo" > Colegio Minerva</title>
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
+      <h1>Colegio Minerva</h1>
+      <img id="image" src="https://mapio.net/images-p/81992369.jpg" height="200" width="450"/>
+    </div>
+    <p><h2>¡Bienvenido, Profesor!</h2></p>
+    <div class="box"> 
+      <p>Escribe en los espacios abajo escribe la palabra y el desplazamiento del día que tu coordinador te proporcionó.</p>
+      <input id="offset2" type="number"/>
+      <input id="string2"/> 
+      <button id="decipherButton">DESCIFRAR</button><!--Boton DESCIFRAR-->
+      <br>
+      <input id="result2" disabled/>
+    </div>
+  <br><br><br>
+    <div class="box">
+     <p> ¿Te gustó esta herramienta? ¡Prueba creando tus propios códigos!</p>
+     <input id="offset" type="number"/><!--Input para seleccionar desplazamiento OK--> 
+      <input id="string"/><!--Input para palabra a encriptar OK--> 
+      <button id="cipherButton">CIFRAR</button><!--Boton CIFRAR-->
+      <br>
+      <input id="result" disabled/> <!--Input donde se muestra la respuesta-->
     </div>
 
-    <input id="string"/><!--Input para palabra a encriptar OK--> 
-    <input id="offset" type="number"/><!--Input para seleccionar desplazamiento OK-->
-    <button id="cipherButton">CIFRAR</button><!--Boton CIFRAR-->
-    <button id="decipherButton">DESCIFRAR</button><!--Boton DESCIFRAR-->
-    <input id="result" disabled/> <!--Input donde se muestra la respuesta-->
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

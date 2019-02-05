@@ -1,3 +1,11 @@
+La Preparatoria MINERVA, comprometida con fomentar el desarrollo integral de sus alumnos y de su personal a través de herramientas tecnológicas innovadoras decide lanzar la plataforma "CIPHER" 
+
+  info sobre proceso y decisiones de diseño.
+
+explica claramente quiénes son los usuarios y su relación con el producto.
+
+explica claramente cómo el producto soluciona los problemas/necesidades de los usuarios.
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)

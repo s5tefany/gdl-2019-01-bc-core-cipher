@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(233, 224, 207);
+    text-align: center;
+    
+}
+
+#result2{
+    height: 20px;
+    width: 300px;
+}
+
+#result{
+    height: 20px;
+    width: 300px;
+}
+
+#string{
+    height: 20px;
+    width: 220px;
+}
+#string2{
+    height: 20px;
+    width: 220px;
+}
