@@ -3,7 +3,7 @@ function encriptar(){
     let n=Number(document.getElementById("offset").value);
     //let mensaje = window.cipher.encode(n, cipher);
     document.getElementById("result").value=window.cipher.encode(n, cipher);
-}
+} 
 
 document.getElementById("cipherButton").addEventListener("click", encriptar);
 
