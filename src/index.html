@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title id="titulo" > Colegio Minerva</title>
-    <link rel="stylesheet" href="style.css" />
-    
-  </head>
-  <body>
-    <div id="root">
-      <h1>Colegio Minerva</h1>
-      <img id="image" src="https://mapio.net/images-p/81992369.jpg" height="200" width="450"/>
-    </div>
-    <p><h2>¡Bienvenido, Profesor!</h2></p>
-    <div class="box"> 
-      <p>Escribe en los espacios abajo escribe la palabra y el desplazamiento del día que tu coordinador te proporcionó.</p>
-      <input id="offset2" type="number"/>
-      <input id="string2"/> 
-      <button id="decipherButton">DESCIFRAR</button><!--Boton DESCIFRAR-->
-      <br>
-      <input id="result2" disabled/>
-    </div>
-  <br><br><br>
-    <div class="box">
-     <p> ¿Te gustó esta herramienta? ¡Prueba creando tus propios códigos!</p>
-     <input id="offset" type="number"/><!--Input para seleccionar desplazamiento OK--> 
-      <input id="string"/><!--Input para palabra a encriptar OK--> 
-      <button id="cipherButton">CIFRAR</button><!--Boton CIFRAR-->
-      <br>
-      <input id="result" disabled/> <!--Input donde se muestra la respuesta-->
-    </div>
+  <div id="background">
+    <head>
+      <meta charset="utf-8">
+      <title> Preparatoria Minerva</title>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <div id="root">
+        <h1 id="titulo">Preparatoria Minerva</h1>
+        <br>
+        <img id="image" src="https://mapio.net/images-p/81992369.jpg" height="200" width="450"/>
+      </div><br>
+      <p><h2>¡Bienvenido, Profesor!</h2></p><br><br>
+      <div class="box"> 
+        <p>Escribe en los espacios abajo escribe la palabra y el <br>desplazamiento del día que tu coordinador te proporcionó.</p><br>
+        <input id="offset2" type="number"/>
+        <input id="string2"/> 
+        <button id="decipherButton">DESCIFRAR</button><!--Boton DESCIFRAR-->
+        <br><br>
+        Resultado: <input id="result2">
+        <button id="copyrd">Copiar</button>
 
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+      </div>
+      <br>
+      <div class="box">
+      <p> ¿Te gustó esta herramienta? <br>¡Prueba creando tus propios códigos!</p><br>
+      <input id="offset" type="number"/><!--Input para seleccionar desplazamiento OK--> 
+        <input id="string"/><!--Input para palabra a encriptar OK--> 
+        <button id="cipherButton">CIFRAR</button><!--Boton CIFRAR-->
+        <br><br>
+      Resultado <input type="text" id="result"> <!--Input donde se muestra la respuesta-->
+      <button id="copyrc">Copiar</button>
+      </div>
+      <script src="cipher.js"></script>
+      <script src="index.js"></script>
+    </body>
+  </div>
+  <footer>
+      CIPHER® Derechos Reservados 2019
+  </footer>
 </html>

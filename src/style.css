@@ -1,10 +1,39 @@
+#titulo{
+   font weight: bold;
+   font-family: Verdana;
+  
+   
+}
 body{
     font-family: sans-serif;
-    background-color: rgb(233, 224, 207);
+    background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     text-align: center;
-    
-}
+   
+ }
 
+ #background{
+     background-color: transparent;
+     width: 700px;
+     margin: auto;
+     margin-top: 30px;
+     padding-bottom: 30px;
+     padding-left: 100px;
+     padding-right: 100px;
+ }
+ .box{
+     border: 4px solid rgba(172, 170, 170, 0.5);
+     background-color: transparent;
+     padding-bottom: 15 px;
+     border-radius: 5px 5px ; 
+     font-weight: bold 
+ }
+ footer{
+     padding-top: 5px;
+     padding-bottom: 5PX;
+     font-size: 12px;
+     font-family: 'Courier New';
+     background-color: beige;
+ }
 #result2{
     height: 20px;
     width: 300px;
@@ -22,4 +51,9 @@ body{
 #string2{
     height: 20px;
     width: 220px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }

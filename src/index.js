@@ -16,4 +16,17 @@ function desencriptar(){
 
 document.getElementById("decipherButton").addEventListener("click", desencriptar);
 
+function copyc() {
+    let copyText = document.getElementById("result");
+    copyText.select();
+    document.execCommand("copy");
+    } 
+    document.getElementById("copyrc").addEventListener("click", copyc);
 
+
+    function copyd() {
+        let copyText = document.getElementById("result2");
+        copyText.select();
+        document.execCommand("copy");
+        } 
+        document.getElementById("copyrd").addEventListener("click", copyd);
