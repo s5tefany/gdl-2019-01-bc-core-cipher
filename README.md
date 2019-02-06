@@ -26,5 +26,5 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 Para hacer uso de CIPHER debes seguir estos pasos:
 
 1. Tu coordinador te brindará la palabra y el desplazamiento del día. 
-2. Entra a https://s5tefany.github.io/gdl-2019-01-bc-core-cipher/ e ingresa los datos proporcionados.
+2. Entra a https://s5tefany.github.io/gdl-2019-01-bc-core-cipher/src/ e ingresa los datos proporcionados.
 3. Presiona DESCIFRAR y ¡Listo! ya tienes la contraseña de las computadoras.
