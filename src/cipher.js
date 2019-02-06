@@ -18,6 +18,5 @@ window.cipher = {
         letra+=String.fromCharCode(decipherLetters); //Muestra B C D --->console.log(letra);
       }
     return letra;
-    },
+    }
   };
-
