@@ -12,7 +12,7 @@ Luego de verificar el comportamiento de la comunidad estudiantil, la administrac
 Motivo por el cual se decide crear CIPHER, una herramienta dirigida a profesores, coordinadores y personal autorizado que necesita tener acceso a las computadoras de la escuela.
 
 
-# ¿Cómo funciona CIPHER? Cifrado César
+# ¿Cómo funciona CIPHER?
 CIPHER está basado en el antiguo cifrado cesar, no de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 

@@ -20,13 +20,13 @@ function copyc() {
     let copyText = document.getElementById("result");
     copyText.select();
     document.execCommand("copy");
-    } 
-    document.getElementById("copyrc").addEventListener("click", copyc);
+} 
+document.getElementById("copyrc").addEventListener("click", copyc);
 
 
-    function copyd() {
+function copyd() {
         let copyText = document.getElementById("result2");
         copyText.select();
         document.execCommand("copy");
-        } 
-        document.getElementById("copyrd").addEventListener("click", copyd);
+} 
+document.getElementById("copyrd").addEventListener("click", copyd);
