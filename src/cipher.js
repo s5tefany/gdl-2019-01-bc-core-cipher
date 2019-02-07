@@ -12,12 +12,11 @@ window.cipher = {
               let cipherLetters=(numA-97+n)%26+97; 
               letra+=String.fromCharCode(cipherLetters); 
             } else {
-              cletra+=String.fromCharCode(cipherLetters)
+              letra+=String.fromCharCode(numA);
             }
-          }
         }
       return letra;
-    },
+      },
   
   decode: 
   function descifrar (n, cipher) {
@@ -28,7 +27,7 @@ window.cipher = {
         letra+=String.fromCharCode(decipherLetters); //Muestra B C D --->console.log(letra);
       }
     return letra;
-    },
+    }
   };
 
 
