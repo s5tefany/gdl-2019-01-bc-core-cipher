@@ -7,7 +7,7 @@ Crear un sistema sencillo que facilite la distribución de las contraseñas de l
 
 
 # ¿Cómo te beneficia CIPHER?
-Luego de verificar el comportamiento de la comunidad estudiantil, la administración de Preparatoria MINERVA detectó que existe una fuga de información en la misma, específicamente de las contraseñas de las computadoras que se encuentran en cada uno de las aulas. Como consecuencia, se localizaron irregularidades en las calificaciones de los alumnos. 
+Luego de verificar el comportamiento de la comunidad estudiantil, la administración de Preparatoria MINERVA detectó que existe una fuga de información en la misma, específicamente de las contraseñas de las computadoras que se encuentran en cada una de las aulas. Como consecuencia, se localizaron irregularidades en las calificaciones de los alumnos. 
 
 Motivo por el cual se decide crear CIPHER, una herramienta dirigida a profesores, coordinadores y personal autorizado que necesita tener acceso a las computadoras de la escuela.
 
@@ -28,4 +28,3 @@ Para hacer uso de CIPHER debes seguir estos pasos:
 1. Tu coordinador te brindará la palabra y el desplazamiento del día. 
 2. Entra a https://s5tefany.github.io/gdl-2019-01-bc-core-cipher/src/ e ingresa los datos proporcionados.
 3. Presiona DESCIFRAR y ¡Listo! ya tienes la contraseña de las computadoras.
-git 
