@@ -3,11 +3,7 @@ function encriptar(){
     let n=Number(document.getElementById("offset").value);
     //let mensaje = window.cipher.encode(n, cipher);
     document.getElementById("result").value=window.cipher.encode(n, cipher);
-<<<<<<< HEAD
     }
-=======
-} 
->>>>>>> master
 
 document.getElementById("cipherButton").addEventListener("click", encriptar);
 
@@ -24,24 +20,13 @@ function copyc() {
     let copyText = document.getElementById("result");
     copyText.select();
     document.execCommand("copy");
-<<<<<<< HEAD
-    } 
-=======
 } 
->>>>>>> master
 document.getElementById("copyrc").addEventListener("click", copyc);
 
 
 function copyd() {
-<<<<<<< HEAD
-    let copyText = document.getElementById("result2");
-    copyText.select();
-    document.execCommand("copy");
-    } 
-=======
         let copyText = document.getElementById("result2");
         copyText.select();
         document.execCommand("copy");
 } 
->>>>>>> master
 document.getElementById("copyrd").addEventListener("click", copyd);
