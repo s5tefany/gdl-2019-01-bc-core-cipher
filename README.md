@@ -34,7 +34,7 @@ Para hacer uso de CIPHER debes seguir estos pasos:
 ## ¡Aún hay más!
 En la misma página hemos habilitado una herramienta que te permitirá __crear contraseñas para tu uso personal,__ solamente debes hacer clic en el botón __CIFRAR,__ sientete libre de utilizarla en el momento que la necesites.  
 
-# Información para Desarrolladores Javascript:
+# Información para Desarrolladores:
  La idea de CIPHER surgió a partir de una experienca personal como una forma de combatir un problema real.
 
  Debido a que el proyecto está dirigido a profesores y administrativos, la mayoria de los casos con poca experiencia en teconologías de la información, se buscó que la Web App fuera lo más simple e intuitiva posible.
