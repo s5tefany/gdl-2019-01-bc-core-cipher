@@ -3,34 +3,43 @@
   <div id="background">
     <head>
       <meta charset="utf-8">
-      <title> Preparatoria Minerva</title>
+      <title>Preparatoria Minerva</title>
       <link rel="stylesheet" href="style.css" />
     </head>
     <body> 
       <div id="root">
-        <h1 id="titulo">Preparatoria Minerva</h1>
-        <br>
-        <img id="image" src="http://www.uti.edu.ec/~utiweb/wp-content/uploads/2015/11/campus4-web-1.jpg" height="250" width="450"/>
+        <h1 id="titulo">Preparatoria Minerva</h1> <br>
+        <hr>
+        <div id="menu">
+            <ul>
+                <li><a href="https://s5tefany.github.io/gdl-2019-01-bc-core-cipher/">Inicio</a></li>
+                <li><a href="https://s5tefany.github.io/gdl-2019-01-bc-core-cipher/">Read me</a></li>
+                <li><a href="https://s5tefany.github.io/gdl-2019-01-bc-core-cipher/">Servicios</a></li>
+                <li><a href="https://s5tefany.github.io/gdl-2019-01-bc-core-cipher/">Contacto</a></li>
+            </ul>
+        </div>
+        <hr> <br>
+        <img id="image" src="http://www.uti.edu.ec/~utiweb/wp-content/uploads/2015/11/campus4-web-1.jpg" height="200" width="400"/>
       </div><br>
-      <p><h2>¡Bienvenido, Profesor!</h2></p><br><br>
+      <p><h2>¡Bienvenido, Profesor!</h2></p><br>
       <div class="box"> 
-        <p>Escribe en los espacios abajo escribe la palabra y el <br>desplazamiento del día que tu coordinador te proporcionó.</p><br>
-        <input id="offset2" type="number"/>
-        <input id="string2"/> 
-        <button id="decipherButton">DESCIFRAR</button><!--Boton DESCIFRAR-->
+        <p>Escribe en los espacios abajo la palabra y el <br>desplazamiento del día que tu coordinador te proporcionó.</p><br>
+        <input class="number" id="offset2" type="number"/>
+        <input class="write" id="string2" placeholder="Escribe aquí la palabra del día"/> 
+        <button id="decipherButton">DESCIFRAR</button>
         <br><br>
-        Resultado: <input id="result2">
+        Resultado: <input class="write" id="result2">
         <button id="copyrd">Copiar</button>
 
       </div>
       <br>
       <div class="box">
       <p> ¿Te gustó esta herramienta? <br>¡Prueba creando tus propios códigos!</p><br>
-      <input id="offset" type="number"/><!--Input para seleccionar desplazamiento OK--> 
-        <input id="string"/><!--Input para palabra a encriptar OK--> 
-        <button id="cipherButton">CIFRAR</button><!--Boton CIFRAR-->
+      <input class="number" id="offset" type="number"/>
+        <input class="write" id="string" placeholder="Escribe aquí la palabra del día"/>
+        <button id="cipherButton">CIFRAR</button>
         <br><br>
-      Resultado <input type="text" id="result"> <!--Input donde se muestra la respuesta-->
+      Resultado <input class="write" type="text" id="result"> 
       <button id="copyrc">Copiar</button>
       </div>
       <script src="cipher.js"></script>
